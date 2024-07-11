@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/scripts.js"></script> 
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdPLg0qAAAAACCb5alTZRbMCofgXzq4Wq60P2oJ"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>InnovaTube</title>
+</head>
+
+<body>
+
+    <section id="loginRegistro" class="seccion-visible">
+        <form action="" id="registrationForm">
+            <h1>Registro</h1>
+            <input type="text" placeholder="Ingrese su Nombre">
+            <input type="text" placeholder="Ingrese sus Apellidos">
+            <input type="text" placeholder="Ingrese su Nombre de Usuario">
+            <input type="email" placeholder="Ingrese su Correo electrónico">
+            <input type="password" placeholder="Ingrese tu contraseña">
+            <input type="password" placeholder="Confirma tu contraseña">
+            <div class="g-recaptcha" data-sitekey="6LdPLg0qAAAAACCb5alTZRbMCofgXzq4Wq60P2oJ"></div>
+            <button>Registrarse</button>
+            <p class="link"><a href="#LoginInicioSesión">¿Ya tienes cuenta?</a></p>
+        </form>
+    </section>
+
+   
+        
+        
+
+    
+    <section id="LoginInicioSesión" class="seccion-oculta">
+        <form action="">
+            <h1>Iniciar Sesión</h1>
+            <input type="email" placeholder="Ingrese su Correo">
+            <input type="password" placeholder="Ingrese su contraseña">
+            <button>Iniciar Sesión</button>
+            <p class="link"><a href="#loginRegistro">¿Aún no tienes cuenta?</a></p>
+        </form>
+    </section>
+    
+</body>
+</html>
